@@ -1,0 +1,90 @@
+/* 
+---------------------------------------------
+                  TABLET
+--------------------------------------------- 
+*/
+@media all and (max-width: 1000px) {
+  .coffee {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .header-right a {
+    padding: 0 10px;
+  }
+}
+
+/* 
+---------------------------------------------
+                  SMARTPHONE
+--------------------------------------------- 
+*/
+@media all and (max-width: 670px) {
+  .coffee {
+    width: 100%;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+
+  .header-right {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .header-right a {
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid #EAEAEB;
+    background-color: #505050;
+    float: none;
+  }
+
+  .header-right a:hover {
+    background-color: black;
+  }
+
+  .header-right a:hover span {
+    color: red;
+  }
+  
+  #toggle:checked + .header-right {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
